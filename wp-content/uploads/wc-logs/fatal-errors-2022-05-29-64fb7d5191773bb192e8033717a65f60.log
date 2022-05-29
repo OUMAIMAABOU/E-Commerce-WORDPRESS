@@ -1,0 +1,11 @@
+2022-05-29T19:56:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "contact_form_add_menu_fun" not found or invalid function name in C:\xampp\htdocs\shop\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\shop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\shop\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\shop\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#3 C:\xampp\htdocs\shop\wp-admin\menu.php(394): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\shop\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\shop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\shop\wp-includes\class-wp-hook.php on line 307
+
